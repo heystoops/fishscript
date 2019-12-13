@@ -1,17 +1,17 @@
-![fsv002](https://user-images.githubusercontent.com/58780384/70740916-4000b500-1ce8-11ea-9b9d-b3417ac597fb.png)
+![fsv003new](https://user-images.githubusercontent.com/58780384/70825952-ab638900-1db3-11ea-8151-e20012f228ed.png)
 
 # Fishscript
 
-Fishscript is a bash script which uses nmap to scan your router's gateway for connected devices and display extended information about any host of your choice.
+Fishscript is a bash script that includes multiple functions which use nmap and ssh to simplify scanning your router's gateway for connected devices and displaying extended information about any host of your choice.
 
 ## Requirements
 
 nmap
+ssh
 
 ## Features
 
-Currently fishscript's main script performs a ping scan via nmap.
-Fishscript prints all hosts on the local wifi network - and can then print more information on any one IP that the user inputs.
+Fishscript currently utilizes three respective functions- a thorough scan of all devices connected to your router's local gateway, which can then run a verbose report on information of an IP of your choice, a port scanner which checks for any open ports on a given IP, and a (very) basic SSH client.
 
 ## Disclaimer
 
